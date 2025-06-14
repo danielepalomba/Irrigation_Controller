@@ -357,7 +357,7 @@ It is then possible to create a customised plate to facilitate sensor management
 
 Let's try it!
 
-![gif](img\.gif)
+![gif](img/.gif)
 
 Home Assistant offers a way of customisation possibilities, and it is possible to add many other features to this system, such as notifications, automatic switch-on based on the humidity sensor and much more.
 

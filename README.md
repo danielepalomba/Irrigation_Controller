@@ -353,11 +353,11 @@ mode: single
 
 It is then possible to create a customised plate to facilitate sensor management, I specifically set it up like this.
 
-![](img\setup.png)
+<img src="img/setup.png" title="" alt="" data-align="center">
 
 Let's try it!
 
-![gif](img/.gif)
+<img src="img/.gif" title="" alt="gif" data-align="center">
 
 Home Assistant offers a way of customisation possibilities, and it is possible to add many other features to this system, such as notifications, automatic switch-on based on the humidity sensor and much more.
 

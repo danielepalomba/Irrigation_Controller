@@ -74,7 +74,7 @@ All components are now ready to be assembled, I will not dwell much on the wirin
 
 The end result looks like this:
 
-![](img\completed.jpg)
+![](img/completed.jpg)
 
 ## ESPHome
 

@@ -24,7 +24,7 @@ At this point you may be asking yourself, *Why 12V? It is not possible to power 
 
 So I set to work and using KiCad I created the circuit diagram. 
 
-![](C:\Users\Daniele\Desktop\Irrigation-Controller\img\schema.png)
+![](img/schema.png)
 
 - J1, will handle the soil moisture sensor.
 
@@ -38,13 +38,13 @@ I then moved on to the modelling of the actual PCB.
 
  The board will consist of two layers, the upper one for current delivery and the lower one for signal transport. The tracks carrying current to the modules are 0.5mm while those carrying signals are 0.25mm. I then defined the 3mm mounting holes and inserted a ground plane both above and below the board.
 
-<img src="file:///C:/Users/Daniele/Desktop/Irrigation-Controller/img/pcb.png" title="" alt="" data-align="center">
+<img title="" src="img/pcb.png" alt="" data-align="center">
 
-<img src="file:///C:/Users/Daniele/Desktop/Irrigation-Controller/img/pcb2.png" title="" alt="" data-align="center">
+<img title="" src="img/pcb2.png" alt="" data-align="center">
 
 Once I had completed the card, I sent it to print........and here it is!
 
-<img title="" src="file:///C:/Users/Daniele/Desktop/Irrigation-Controller/img/pcb3.jpg" alt="" data-align="center" width="347">
+<img title="" src="img/pcb3.jpg" alt="" data-align="center" width="347">
 
 Now that the board was with me, I started soldering all the components. Specifically:
 
@@ -60,7 +60,7 @@ Now that the board was with me, I started soldering all the components. Specific
 
 - C1: Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal
 
-<img title="" src="file:///C:/Users/Daniele/Desktop/Irrigation-Controller/img/soldering.jpg" alt="" width="571" data-align="center">
+<img title="" src="img/soldering.jpg" alt="" width="571" data-align="center">
 
 The board is finally finished, after which I started thinking of a way to waterproof the soil moisture sensor so that it would withstand the elements.
 
@@ -68,13 +68,13 @@ In the end I modelled a box and printed it with my 3D printer using PETG.  I the
 
 And this is the end result.
 
-<img title="" src="file:///C:/Users/Daniele/Desktop/Irrigation-Controller/img/capacitive_sensor.jpg" alt="" width="430" data-align="center">
+<img title="" src="img/capacitive_sensor.jpg" alt="" width="430" data-align="center">
 
 All components are now ready to be assembled, I will not dwell much on the wiring of the cables as it is only a matter of connecting the solenoid valves to the relays and creating the power supply line to the board, which is very simple and basic.
 
 The end result looks like this:
 
-![](C:\Users\Daniele\Desktop\Irrigation-Controller\img\completed.jpg)
+![](img\completed.jpg)
 
 ## ESPHome
 
@@ -353,11 +353,11 @@ mode: single
 
 It is then possible to create a customised plate to facilitate sensor management, I specifically set it up like this.
 
-![](C:\Users\Daniele\Desktop\Irrigation-Controller\img\setup.png)
+![](img\setup.png)
 
 Let's try it!
 
-![gif](C:\Users\Daniele\Desktop\Irrigation-Controller\img\.gif)
+![gif](img\.gif)
 
 Home Assistant offers a way of customisation possibilities, and it is possible to add many other features to this system, such as notifications, automatic switch-on based on the humidity sensor and much more.
 
